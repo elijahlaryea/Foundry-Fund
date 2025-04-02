@@ -2,5 +2,9 @@
 src = "src"
 out = "out"
 libs = ["lib"]
+remappings = ["@chainlink/contracts/=lib/chainlink-brownie-contracts/contracts/"]
+
+# //keep this off for as much as possible. Allows foundry to run scripts directly on my machine.
+# ffi = true
 
 # See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
